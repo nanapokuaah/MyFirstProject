@@ -6,6 +6,7 @@
       "artist": "Jake Owen",
       "album": "Barefoot blue jean night",
       "year": 2011, 
+      "genre": "Country",
       "audio": "audios/barefoot.mp3",
       "link": "https://www.youtube.com/watch?v=aRh-vBOS-dU&ab_channel=jakeowenVEVO",
       "image": "https://images.sk-static.com/images/media/img/col6/20220311-165949-555133.jpg"
@@ -16,6 +17,7 @@
       "artist": "Richard Marx",
       "album": "Repeat Offender",
       "year": 1989,
+      "genre": "Rock Classics",
       "audio": "audios/righthere.mp3",
       "link": "https://www.youtube.com/watch?v=S_E2EHVxNAE&ab_channel=RichardMarxVEVO",
       "image": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1149929163.jpg?resize=980:*"
@@ -26,6 +28,7 @@
       "artist": "Michael Jackson",
       "album": "Off The Walls",
       "year": 1979,
+      "genre": "Afro-beats",
       "audio": "audios/rockwith.mp3",
       "link": "https://www.youtube.com/watch?v=5X-Mrc2l1d0&ab_channel=michaeljacksonVEVO",
       "image": "https://cdn.artphotolimited.com/images/61a73c0dbd40b81766e77efb/1000x1000/michael-jackson-in-a-black-leather-jacket.jpg"
@@ -37,6 +40,7 @@
       "artist": "Drake",
       "album": "What a time to be alive",
       "year": 2015,
+      "genre": "Hip-Pop",
       "audio": "audios/plan.mp3",
       "link": "https://www.youtube.com/watch?v=xpVfcZ0ZcFM&ab_channel=DrakeVEVO",
       "image": "https://cdn.britannica.com/37/231937-050-9228ECA1/Drake-rapper-2019.jpg"
@@ -47,9 +51,21 @@
       "artist": "Adele",
       "album": "30",
       "year": 2021,
+      "genre": "Classical",
       "audio": "audios/wine.mp3",
       "link": "https://www.youtube.com/watch?v=jDvYDzFOK9A&t=4s",
       "image": "https://ca-times.brightspotcdn.com/dims4/default/ed35f56/2147483647/strip/true/crop/2100x3000+0+0/resize/1200x1714!/format/webp/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fd7%2Fec%2F9c6103094901b6351f07c96550c9%2Fla-ca-adele-one-night-only-196.JPG"
+    },
+{
+    "id": 6,
+      "song": "Thriller",
+      "artist": "Michael Jackson",
+      "album": "Off the wall",
+      "year": 1979, 
+      "genre": "Afro-beats",
+      "audio": "audios/barefoot.mp3",
+      "link": "https://www.youtube.com/watch?v=aRh-vBOS-dU&ab_channel=jakeowenVEVO",
+      "image": "https://images.sk-static.com/images/media/img/col6/20220311-165949-555133.jpg"
     }
   ]
 }

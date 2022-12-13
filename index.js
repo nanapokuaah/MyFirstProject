@@ -54,51 +54,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
                     })
                     songDiv.append(addSong)
                 }
-                else if(e.target.value == "Rock Classics"){
-                    bgimg.src = musicArray[1].image
-                    addSong.textContent = musicArray[1].link
-                    bgimg.addEventListener('click', () =>{
-                        songDiv.textContent = ''
-                        const artistName = document.createElement('p')
-                        artistName.textContent = `${musicArray[1].artist} | ${musicArray[1].song}`
-                        songDiv.append(artistName)
-                    })
-                    songDiv.append(addSong)
-                }
-                else if(e.target.value == "Afro-Beats"){
-                    bgimg.src = musicArray[2].image
-                    addSong.textContent = musicArray[2].link
-                    bgimg.addEventListener('click', () =>{
-                        songDiv.textContent = ''
-                        const artistName = document.createElement('p')
-                        artistName.textContent = `${musicArray[2].artist} | ${musicArray[2].song}`
-                        songDiv.append(artistName)
-                    })
-                    songDiv.append(addSong)
-                }
-               
-                else if(e.target.value == "Hip-Pop"){
-                    bgimg.src = musicArray[3].image
-                    addSong.textContent = musicArray[3].link
-                    bgimg.addEventListener('click', () =>{
-                        songDiv.textContent = ''
-                        const artistName = document.createElement('p')
-                        artistName.textContent = `${musicArray[3].artist} | ${musicArray[3].song}`
-                        songDiv.append(artistName)
-                    })
-                    songDiv.append(addSong)
-                }
-                else if(e.target.value == "Classical"){
-                    bgimg.src = musicArray[4].image
-                    addSong.textContent = musicArray[4].link
-                    bgimg.addEventListener('click', () =>{
-                        songDiv.textContent = ''
-                        const artistName = document.createElement('p')
-                        artistName.textContent = `${musicArray[4].artist} | ${musicArray[4].song}`
-                        songDiv.append(artistName)
-                    })
-                    songDiv.append(addSong)
-                }
+                
             
 
             
