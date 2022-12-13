@@ -17,17 +17,23 @@ document.addEventListener("DOMContentLoaded", ()=> {
         //     img.src = artistObj.image
         //     songDiv.append(img)
         // })
-
+        
+        const searchResultContainer = document.querySelector('#searchResultContainer')
         searchBar.addEventListener('submit',(e) => {
             e.preventDefault();
+            searchResultContainer.textContent=''
             const searchInput = e.target.search.value;
             if(searchInput ===""){
                 window.alert("Input is blank")
             }
             const filteredArray = musicArray.filter(eachObj => {
-                return eachObj.song == searchInput
+                return eachObj.song.toLowerCase() == searchInput.toLowerCase()
             })
-            console.log(filteredArray)
+            const searchResult = document.createElement('p')
+            console.log(`${filteredArray[0].album} | ${filteredArray[0].year}`)
+            searchResult.textContent = `${filteredArray[0].album} | ${filteredArray[0].year}`
+           searchResultContainer.append(searchResult)
+
         })
         dropdown.addEventListener('change', function handleChange(e) {
             songDiv.textContent = ''
