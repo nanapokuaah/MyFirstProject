@@ -28,11 +28,11 @@
       "artist": "Michael Jackson",
       "album": "Off The Walls",
       "year": 1979,
-      "genre": "Afro-beats",
+      "genre": "Pop",
       "audio": "audios/rockwith.mp3",
       "link": "https://www.youtube.com/watch?v=5X-Mrc2l1d0&ab_channel=michaeljacksonVEVO",
-      "image": "https://cdn.artphotolimited.com/images/61a73c0dbd40b81766e77efb/1000x1000/michael-jackson-in-a-black-leather-jacket.jpg"
-      
+      "image": "https://images.sk-static.com/images/media/img/col6/20220311-165949-555133.jpg"
+
     },
     {
       "id": 4,
@@ -62,10 +62,51 @@
       "artist": "Michael Jackson",
       "album": "Off the wall",
       "year": 1979, 
-      "genre": "Afro-beats",
+      "genre": "Pop",
       "audio": "audios/barefoot.mp3",
-      "link": "https://www.youtube.com/watch?v=aRh-vBOS-dU&ab_channel=jakeowenVEVO",
+      "link": "https://www.youtube.com/watch?v=sOnqjkJTMaA",
       "image": "https://images.sk-static.com/images/media/img/col6/20220311-165949-555133.jpg"
-    }
+    },
+{
+  "id": 7,
+      "song": "Down Flat",
+      "artist": "Kelvyn Boy",
+      "album": "Down Flat",
+      "year": 2022,
+      "genre": "Afro-beats",
+      "link":"https://www.youtube.com/watch?v=NxyzTOX_tDQ",
+      "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fflutymusic.com%2Fwp-content%2Fuploads%2F2020%2F12%2Fkelvin-boy.jpg&imgrefurl=https%3A%2F%2Fflutymusic.com%2Fkelvyn-boy-confident-to-bring-ghana-to-grammys%2F&tbnid=luWoxFyxoEjD2M&vet=12ahUKEwjDg-exgoT8AhXMEGIAHdIqChEQMygSegUIARD0AQ..i&docid=B2ZES40FmXlWUM&w=1012&h=1265&q=kelvynboy&ved=2ahUKEwjDg-exgoT8AhXMEGIAHdIqChEQMygSegUIARD0AQ"
+},
+{
+  "id": 8,
+  "song":"Goodness of God",
+  "artist": "Cece Winans",
+  "album": "Believe For It",
+  "year": 2021,
+  "genre": "Gospel",
+  "link":"https://www.youtube.com/watch?v=n4ggKHAK_xk",
+  "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fimageio.forbes.com%2Fspecials-images%2Fimageserve%2F604bb0e16c8e8250b6ff7a1f%2FCeCe-Winans-releases-her-first-ever-live-album-titled--Believe-For-It-%2F960x0.jpg%3Fformat%3Djpg%26width%3D960&imgrefurl=https%3A%2F%2Fwww.forbes.com%2Fsites%2Fpamwindsor%2F2021%2F03%2F12%2Fgospel-legend-cece-winans-releases-new-live-album-believe-for-it%2F&tbnid=XJLEL3gF4aYAHM&vet=12ahUKEwiktL_8gYT8AhV8EVkFHRH7DiIQMygWegUIARCUAg..i&docid=ayZ5o_qqZEKNbM&w=959&h=957&q=cece%20winans&ved=2ahUKEwiktL_8gYT8AhV8EVkFHRH7DiIQMygWegUIARCUAg"
+},
+{
+  "id": 9,
+  "song":"Over Me",
+  "artist": "Sarkodie",
+  "album": "Jamz",
+  "year": 2022,
+  "genre": "Afro-beats",
+  "link":"https://www.youtube.com/watch?v=sGI4BHApGRQ",
+  "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fhiphopafrican.com%2Fwp-content%2Fuploads%2F2022%2F02%2FSarkodie-1-600x280.jpeg&imgrefurl=https%3A%2F%2Fhiphopafrican.com%2Fsarkodie-4%2F&tbnid=uZpuWtHyEX8WTM&vet=10CEwQMyiKAWoXChMIyLn9xoCE_AIVAAAAAB0AAAAAEDk..i&docid=xMxFDOv9a6wAkM&w=532&h=280&q=sarkodie&ved=0CEwQMyiKAWoXChMIyLn9xoCE_AIVAAAAAB0AAAAAEDk"
+},
+{
+  "id": 10,
+  "song":"Believe For It",
+  "artist": "Cece Winans",
+  "album": "Believe For It",
+  "year": 2021,
+  "genre": "Gospel",
+  "link":"https://www.youtube.com/watch?v=9sE5kEnitqE",
+  "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fimageio.forbes.com%2Fspecials-images%2Fimageserve%2F604bb0e16c8e8250b6ff7a1f%2FCeCe-Winans-releases-her-first-ever-live-album-titled--Believe-For-It-%2F960x0.jpg%3Fformat%3Djpg%26width%3D960&imgrefurl=https%3A%2F%2Fwww.forbes.com%2Fsites%2Fpamwindsor%2F2021%2F03%2F12%2Fgospel-legend-cece-winans-releases-new-live-album-believe-for-it%2F&tbnid=XJLEL3gF4aYAHM&vet=12ahUKEwiktL_8gYT8AhV8EVkFHRH7DiIQMygWegUIARCUAg..i&docid=ayZ5o_qqZEKNbM&w=959&h=957&q=cece%20winans&ved=2ahUKEwiktL_8gYT8AhV8EVkFHRH7DiIQMygWegUIARCUAg"
+}
+
   ]
 }

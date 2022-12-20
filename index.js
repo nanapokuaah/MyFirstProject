@@ -41,11 +41,14 @@ document.addEventListener("DOMContentLoaded", ()=> {
             // console.log(e.target.value); //  get selected VALUE
             const addSong = document.createElement('p')
 
-            // musicArray.forEach(song =>{
-                
-                if(e.target.value == "Country"){
-                    bgimg.src = musicArray[0].image
-                    addSong.textContent = musicArray[0].link
+             musicArray.forEach(song =>{
+                if(e.target.value == song.genre){
+                    console.log(e.target.value)
+
+}
+                    bgimg.src = musicArray.find
+                    addSong.textContent = musicArray.link
+    
                     bgimg.addEventListener('click', () =>{
                         songDiv.textContent = ''
                         const artistName = document.createElement('p')
@@ -53,12 +56,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
                         songDiv.append(artistName)
                     })
                     songDiv.append(addSong)
-                }
-                
-            
-
-            
-
+                })
+            })
         })
     })
-})
