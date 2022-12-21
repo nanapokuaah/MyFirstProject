@@ -30,9 +30,8 @@
       "year": 1979,
       "genre": "Pop",
       "audio": "audios/rockwith.mp3",
-      "link": "https://www.youtube.com/watch?v=5X-Mrc2l1d0&ab_channel=michaeljacksonVEVO",
-      "image": "https://images.sk-static.com/images/media/img/col6/20220311-165949-555133.jpg"
-
+      "link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.newyorker.com%2Fculture%2Fculture-desk%2Fthe-bizarre-dispute-over-whether-three-michael-jackson-songs-were-actually-sung-by-someone-else&psig=AOvVaw0za-5kHhzm5xuCA5bETD3r&ust=1671740672224000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIDljrnFi_wCFQAAAAAdAAAAABAE",
+      "image": "https://www.indiewire.com/wp-content/uploads/2022/02/AP8802241920.jpg"
     },
     {
       "id": 4,
@@ -65,8 +64,8 @@
       "genre": "Pop",
       "audio": "audios/barefoot.mp3",
       "link": "https://www.youtube.com/watch?v=sOnqjkJTMaA",
-      "image": "https://images.sk-static.com/images/media/img/col6/20220311-165949-555133.jpg"
-    },
+      "image": "https://www.indiewire.com/wp-content/uploads/2022/02/AP8802241920.jpg",
+},
 {
   "id": 7,
       "song": "Down Flat",

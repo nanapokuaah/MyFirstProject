@@ -8,8 +8,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
     .then((response) => response.json())
     .then((data) => {
        const musicArray = data
-        console.log(musicArray)
-
+    //})
         // musicArray.forEach(artistObj => {
         //     const img = document.createElement('img')
         //     img.style.width = "400px";
@@ -37,26 +36,25 @@ document.addEventListener("DOMContentLoaded", ()=> {
         })
         dropdown.addEventListener('change', function handleChange(e) {
             songDiv.textContent = ''
-            
+            const target = e.target.value
             // console.log(e.target.value); //  get selected VALUE
             const addSong = document.createElement('p')
-
-             musicArray.forEach(song =>{
-                if(e.target.value == song.genre){
-                    console.log(e.target.value)
-
-}
-                    bgimg.src = musicArray.find
-                    addSong.textContent = musicArray.link
-    
+            // musicArray.forEach(song =>{
+                const finder = musicArray.find((song) => song.genre ===target)
+                //console.log(finder)
+                if(e.target.value == finder.genre){
+                    bgimg.src = finder.image
+                    addSong.textContent = finder.link
                     bgimg.addEventListener('click', () =>{
                         songDiv.textContent = ''
                         const artistName = document.createElement('p')
-                        artistName.textContent = `${musicArray[0].artist} | ${musicArray[0].song}`
+                        artistName.textContent = `${finder.artist} | ${finder.song}`
                         songDiv.append(artistName)
                     })
                     songDiv.append(addSong)
-                })
-            })
+                }
         })
-    })
+ 
+    })      
+            })
+        
