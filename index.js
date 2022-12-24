@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
                 //console.log(finder)
                 if(e.target.value == finder.genre){
                     bgimg.src = finder.image
-                    addSong.textContent = finder.link
+                    addSong.textContent = finder.hyperlink
                     bgimg.addEventListener('click', () =>{
                         songDiv.textContent = ''
                         const artistName = document.createElement('p')
