@@ -39,22 +39,20 @@ document.addEventListener("DOMContentLoaded", ()=> {
             const target = e.target.value
             // console.log(e.target.value); //  get selected VALUE
             const addSong = document.createElement('p')
-            // musicArray.forEach(song =>{
                 const finder = musicArray.find((song) => song.genre ===target)
-                //console.log(finder)
-                if(e.target.value == finder.genre){
+                if(e.target.value == finder.genre)
                     bgimg.src = finder.image
                     addSong.textContent = finder.hyperlink
                     bgimg.addEventListener('click', () =>{
                         songDiv.textContent = ''
                         const artistName = document.createElement('p')
                         artistName.textContent = `${finder.artist} | ${finder.song}`
+                        console.log(finder.artist)
                         songDiv.append(artistName)
                     })
                     songDiv.append(addSong)
-                }
+                
         })
  
-    })      
-            })
-        
+    })
+})
