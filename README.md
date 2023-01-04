@@ -12,4 +12,5 @@ This project was made with the intention to illustrate my passion for music and 
 Features:
 * Users can search for songs 
 * can show images of their favorite musicians
-*offers recommendations
+*offers recommendations:
+Which songs I recommend users to listen to while working on assignments
