@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <body>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MUSE</title>
     <script src="index.js" charset="UTF-8"></script>
     <link rel="stylesheet" href = "style.css">
-    
+    <div class ="menu bar">
+
+  
+    </div>
     <form id="search-bar">
     <div class="topnav">
       <a class="active" href="#Music"></a>
-      <a href="#Country">Country</a>
+          <div class="navbar">
+            <div class="dropdown">
+              <button class="dropbtn">Afro-beats
+                <button class="dropbtn">
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div  class="dropdown-content">
+                <a href="#">Over Me</a>
+                <a href="#">Deserve My Love</a>
+              </div>
+              </div>
+            </div>
+
+
+            
+            
       <a href="#Classical">Classical</a>
       <a href="#Hip-Pop">Hip-Pop</a>
       <a href="#Gospel">Gospel</a>
@@ -30,6 +49,7 @@
     <h2>Space For Greatness</h2>
     <select id="genre">
       <option value="">Choose Genre of Music</option>
+      <option value="Afro-beats">Afro-beats</option> 
       <option value="Country">Country</option>
       <option value="Gospel">Gospel</option>
       <option value="Hip-Pop">Hip-Pop</option>

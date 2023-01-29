@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
     fetch("http://localhost:3000/music")
     .then((response) => response.json())
     .then((data) => {
-       const musicArray = data
+     musicArray = data
     //})
         // musicArray.forEach(artistObj => {
         //     const img = document.createElement('img')
@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
 
         })
         dropdown.addEventListener('change', function handleChange(e) {
+            //add event listener allows changes in the dropbox
             songDiv.textContent = ''
             const target = e.target.value
             // console.log(e.target.value); //  get selected VALUE
@@ -56,3 +57,4 @@ document.addEventListener("DOMContentLoaded", ()=> {
  
     })
 })
+let musicArray = []
